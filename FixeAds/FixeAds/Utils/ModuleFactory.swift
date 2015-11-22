@@ -20,12 +20,22 @@ class ModuleFactory {
     
     class func adCategoryScreen() -> AdCategoryViewController? {
         let vc: AdCategoryViewController? = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(AdCategoryViewController) as? AdCategoryViewController
+        vc?.adCategoryScreenViewModel = AdCategoryScreenViewModel()
+        
         return vc
     }
     
     class func adDetailScreen() -> AdDetailViewController? {
         
         let vc: AdDetailViewController? = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(AdDetailViewController) as? AdDetailViewController
+        return vc
+    }
+    
+    class func mapScreen(latitude: String, longitude: String) -> MapViewController? {
+        
+        let vc: MapViewController? = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(MapViewController) as? MapViewController
+        vc?.latitude = latitude
+        vc?.longitude = longitude
         return vc
     }
     

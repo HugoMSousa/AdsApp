@@ -20,8 +20,30 @@
 		32EBA1971C01181600660E2C /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1961C01181600660E2C /* ModuleFactory.swift */; };
 		32EBA1991C011D0A00660E2C /* RootIPadRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1981C011D0A00660E2C /* RootIPadRouter.swift */; };
 		32EBA19B1C0128EC00660E2C /* AdDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA19A1C0128EC00660E2C /* AdDetailViewController.swift */; };
-		32EBA19D1C012A0D00660E2C /* AdCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA19C1C012A0D00660E2C /* AdCategoryViewModel.swift */; };
-		32EBA19F1C012A4E00660E2C /* AdDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA19E1C012A4E00660E2C /* AdDetailViewModel.swift */; };
+		32EBA19D1C012A0D00660E2C /* AdCategoryScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA19C1C012A0D00660E2C /* AdCategoryScreenViewModel.swift */; };
+		32EBA19F1C012A4E00660E2C /* AdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA19E1C012A4E00660E2C /* AdViewModel.swift */; };
+		32EBA1A11C01D3DB00660E2C /* AdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1A01C01D3DB00660E2C /* AdTableViewCell.swift */; };
+		32EBA1A31C01FBE400660E2C /* AdsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1A21C01FBE400660E2C /* AdsWebService.swift */; };
+		32EBA1A81C0214C400660E2C /* AdsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1A71C0214C400660E2C /* AdsDataStore.swift */; };
+		32EBA1AA1C0218FF00660E2C /* AdCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1A91C0218FF00660E2C /* AdCategoryViewModel.swift */; };
+		32EBA1B51C02309C00660E2C /* AdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1B41C02309C00660E2C /* AdModel.swift */; };
+		32EBA1B71C0232ED00660E2C /* AdCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1B61C0232ED00660E2C /* AdCategoryModel.swift */; };
+		32EBA1BF1C026A8500660E2C /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EBA1B01C022FC100660E2C /* Realm.framework */; };
+		32EBA1C01C026A8500660E2C /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32EBA1B01C022FC100660E2C /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32EBA1C21C026A8700660E2C /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EBA1B11C022FC200660E2C /* RealmSwift.framework */; };
+		32EBA1C31C026A8700660E2C /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32EBA1B11C022FC200660E2C /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32EBA1D11C02751C00660E2C /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1C51C02751C00660E2C /* Delay.swift */; };
+		32EBA1D21C02751C00660E2C /* ImageDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1C61C02751C00660E2C /* ImageDownloadOperation.swift */; };
+		32EBA1D31C02751C00660E2C /* ImageGifExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1C71C02751C00660E2C /* ImageGifExtension.swift */; };
+		32EBA1D41C02751C00660E2C /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1C81C02751C00660E2C /* ImageManager.swift */; };
+		32EBA1D51C02751C00660E2C /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1C91C02751C00660E2C /* ImageViewExtension.swift */; };
+		32EBA1D61C02751C00660E2C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32EBA1CA1C02751C00660E2C /* Info.plist */; };
+		32EBA1D71C02751C00660E2C /* Resizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1CB1C02751C00660E2C /* Resizer.swift */; };
+		32EBA1D81C02751C00660E2C /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1CD1C02751C00660E2C /* DiskStorage.swift */; };
+		32EBA1D91C02751C00660E2C /* InMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1CE1C02751C00660E2C /* InMemoryStorage.swift */; };
+		32EBA1DA1C02751C00660E2C /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1CF1C02751C00660E2C /* MD5.swift */; };
+		32EBA1DB1C02751C00660E2C /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1D01C02751C00660E2C /* Storage.swift */; };
+		32EBA1DD1C02866100660E2C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA1DC1C02866100660E2C /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +62,21 @@
 			remoteInfo = FixeAds;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32EBA1C11C026A8500660E2C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				32EBA1C31C026A8700660E2C /* RealmSwift.framework in Embed Frameworks */,
+				32EBA1C01C026A8500660E2C /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		32EBA1261C00D3C400660E2C /* FixeAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FixeAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +99,28 @@
 		32EBA1961C01181600660E2C /* ModuleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
 		32EBA1981C011D0A00660E2C /* RootIPadRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootIPadRouter.swift; sourceTree = "<group>"; };
 		32EBA19A1C0128EC00660E2C /* AdDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDetailViewController.swift; sourceTree = "<group>"; };
-		32EBA19C1C012A0D00660E2C /* AdCategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdCategoryViewModel.swift; sourceTree = "<group>"; };
-		32EBA19E1C012A4E00660E2C /* AdDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDetailViewModel.swift; sourceTree = "<group>"; };
+		32EBA19C1C012A0D00660E2C /* AdCategoryScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdCategoryScreenViewModel.swift; sourceTree = "<group>"; };
+		32EBA19E1C012A4E00660E2C /* AdViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdViewModel.swift; sourceTree = "<group>"; };
+		32EBA1A01C01D3DB00660E2C /* AdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdTableViewCell.swift; sourceTree = "<group>"; };
+		32EBA1A21C01FBE400660E2C /* AdsWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsWebService.swift; sourceTree = "<group>"; };
+		32EBA1A71C0214C400660E2C /* AdsDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsDataStore.swift; sourceTree = "<group>"; };
+		32EBA1A91C0218FF00660E2C /* AdCategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdCategoryViewModel.swift; sourceTree = "<group>"; };
+		32EBA1B01C022FC100660E2C /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		32EBA1B11C022FC200660E2C /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		32EBA1B41C02309C00660E2C /* AdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdModel.swift; sourceTree = "<group>"; };
+		32EBA1B61C0232ED00660E2C /* AdCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdCategoryModel.swift; sourceTree = "<group>"; };
+		32EBA1C51C02751C00660E2C /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		32EBA1C61C02751C00660E2C /* ImageDownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadOperation.swift; sourceTree = "<group>"; };
+		32EBA1C71C02751C00660E2C /* ImageGifExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGifExtension.swift; sourceTree = "<group>"; };
+		32EBA1C81C02751C00660E2C /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		32EBA1C91C02751C00660E2C /* ImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		32EBA1CA1C02751C00660E2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EBA1CB1C02751C00660E2C /* Resizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resizer.swift; sourceTree = "<group>"; };
+		32EBA1CD1C02751C00660E2C /* DiskStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskStorage.swift; sourceTree = "<group>"; };
+		32EBA1CE1C02751C00660E2C /* InMemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryStorage.swift; sourceTree = "<group>"; };
+		32EBA1CF1C02751C00660E2C /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		32EBA1D01C02751C00660E2C /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		32EBA1DC1C02866100660E2C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32EBA1C21C026A8700660E2C /* RealmSwift.framework in Frameworks */,
+				32EBA1BF1C026A8500660E2C /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +177,7 @@
 				32EBA1701C00F29400660E2C /* Assets.xcassets */,
 				32EBA1711C00F29400660E2C /* Base.lproj */,
 				32EBA1761C00F29400660E2C /* Info.plist */,
+				32EBA1A61C02148100660E2C /* Domain Layer */,
 				32EBA1771C00F29400660E2C /* Network Layer */,
 				32EBA1781C00F29400660E2C /* Persistent Layer */,
 				32EBA1791C00F29400660E2C /* Presentation Layer */,
@@ -158,6 +218,7 @@
 		32EBA1771C00F29400660E2C /* Network Layer */ = {
 			isa = PBXGroup;
 			children = (
+				32EBA1A21C01FBE400660E2C /* AdsWebService.swift */,
 			);
 			path = "Network Layer";
 			sourceTree = "<group>";
@@ -165,6 +226,8 @@
 		32EBA1781C00F29400660E2C /* Persistent Layer */ = {
 			isa = PBXGroup;
 			children = (
+				32EBA1B01C022FC100660E2C /* Realm.framework */,
+				32EBA1B11C022FC200660E2C /* RealmSwift.framework */,
 			);
 			path = "Persistent Layer";
 			sourceTree = "<group>";
@@ -190,8 +253,9 @@
 		32EBA17C1C00F29400660E2C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				32EBA19C1C012A0D00660E2C /* AdCategoryViewModel.swift */,
-				32EBA19E1C012A4E00660E2C /* AdDetailViewModel.swift */,
+				32EBA19C1C012A0D00660E2C /* AdCategoryScreenViewModel.swift */,
+				32EBA19E1C012A4E00660E2C /* AdViewModel.swift */,
+				32EBA1A91C0218FF00660E2C /* AdCategoryViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -220,6 +284,7 @@
 			children = (
 				32EBA1821C00F29400660E2C /* AdCategoryViewController.swift */,
 				32EBA19A1C0128EC00660E2C /* AdDetailViewController.swift */,
+				32EBA1DC1C02866100660E2C /* MapViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -227,6 +292,7 @@
 		32EBA1831C00F29400660E2C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				32EBA1A01C01D3DB00660E2C /* AdTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +300,7 @@
 		32EBA1841C00F29400660E2C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				32EBA1C41C02751C00660E2C /* MapleBacon */,
 				32EBA1961C01181600660E2C /* ModuleFactory.swift */,
 			);
 			path = Utils;
@@ -247,6 +314,42 @@
 			path = "UIKit Extensions";
 			sourceTree = "<group>";
 		};
+		32EBA1A61C02148100660E2C /* Domain Layer */ = {
+			isa = PBXGroup;
+			children = (
+				32EBA1A71C0214C400660E2C /* AdsDataStore.swift */,
+				32EBA1B41C02309C00660E2C /* AdModel.swift */,
+				32EBA1B61C0232ED00660E2C /* AdCategoryModel.swift */,
+			);
+			path = "Domain Layer";
+			sourceTree = "<group>";
+		};
+		32EBA1C41C02751C00660E2C /* MapleBacon */ = {
+			isa = PBXGroup;
+			children = (
+				32EBA1C51C02751C00660E2C /* Delay.swift */,
+				32EBA1C61C02751C00660E2C /* ImageDownloadOperation.swift */,
+				32EBA1C71C02751C00660E2C /* ImageGifExtension.swift */,
+				32EBA1C81C02751C00660E2C /* ImageManager.swift */,
+				32EBA1C91C02751C00660E2C /* ImageViewExtension.swift */,
+				32EBA1CA1C02751C00660E2C /* Info.plist */,
+				32EBA1CB1C02751C00660E2C /* Resizer.swift */,
+				32EBA1CC1C02751C00660E2C /* Storage */,
+			);
+			path = MapleBacon;
+			sourceTree = "<group>";
+		};
+		32EBA1CC1C02751C00660E2C /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				32EBA1CD1C02751C00660E2C /* DiskStorage.swift */,
+				32EBA1CE1C02751C00660E2C /* InMemoryStorage.swift */,
+				32EBA1CF1C02751C00660E2C /* MD5.swift */,
+				32EBA1D01C02751C00660E2C /* Storage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,6 +360,7 @@
 				32EBA1221C00D3C400660E2C /* Sources */,
 				32EBA1231C00D3C400660E2C /* Frameworks */,
 				32EBA1241C00D3C400660E2C /* Resources */,
+				32EBA1C11C026A8500660E2C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32EBA1D61C02751C00660E2C /* Info.plist in Resources */,
 				32EBA1881C00F29400660E2C /* Main.storyboard in Resources */,
 				32EBA1861C00F29400660E2C /* Assets.xcassets in Resources */,
 				32EBA1871C00F29400660E2C /* LaunchScreen.storyboard in Resources */,
@@ -379,15 +484,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EBA1911C01011800660E2C /* Router.swift in Sources */,
+				32EBA1D51C02751C00660E2C /* ImageViewExtension.swift in Sources */,
 				32EBA1951C01157D00660E2C /* RootIPhoneRouter.swift in Sources */,
-				32EBA19F1C012A4E00660E2C /* AdDetailViewModel.swift in Sources */,
+				32EBA19F1C012A4E00660E2C /* AdViewModel.swift in Sources */,
 				32EBA1991C011D0A00660E2C /* RootIPadRouter.swift in Sources */,
+				32EBA1B71C0232ED00660E2C /* AdCategoryModel.swift in Sources */,
+				32EBA1D21C02751C00660E2C /* ImageDownloadOperation.swift in Sources */,
+				32EBA1AA1C0218FF00660E2C /* AdCategoryViewModel.swift in Sources */,
+				32EBA1D71C02751C00660E2C /* Resizer.swift in Sources */,
 				32EBA18B1C00F29400660E2C /* AdCategoryViewController.swift in Sources */,
+				32EBA1A31C01FBE400660E2C /* AdsWebService.swift in Sources */,
 				32EBA18F1C00F95B00660E2C /* UIStoryboard+Extensions.swift in Sources */,
+				32EBA1D31C02751C00660E2C /* ImageGifExtension.swift in Sources */,
+				32EBA1D41C02751C00660E2C /* ImageManager.swift in Sources */,
+				32EBA1A81C0214C400660E2C /* AdsDataStore.swift in Sources */,
+				32EBA1A11C01D3DB00660E2C /* AdTableViewCell.swift in Sources */,
+				32EBA1DA1C02751C00660E2C /* MD5.swift in Sources */,
 				32EBA19B1C0128EC00660E2C /* AdDetailViewController.swift in Sources */,
+				32EBA1D11C02751C00660E2C /* Delay.swift in Sources */,
 				32EBA1851C00F29400660E2C /* AppDelegate.swift in Sources */,
 				32EBA1971C01181600660E2C /* ModuleFactory.swift in Sources */,
-				32EBA19D1C012A0D00660E2C /* AdCategoryViewModel.swift in Sources */,
+				32EBA1D81C02751C00660E2C /* DiskStorage.swift in Sources */,
+				32EBA1DD1C02866100660E2C /* MapViewController.swift in Sources */,
+				32EBA1D91C02751C00660E2C /* InMemoryStorage.swift in Sources */,
+				32EBA19D1C012A0D00660E2C /* AdCategoryScreenViewModel.swift in Sources */,
+				32EBA1B51C02309C00660E2C /* AdModel.swift in Sources */,
+				32EBA1DB1C02751C00660E2C /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,8 +653,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FixeAds/Persistent",
+					Layer,
+				);
 				INFOPLIST_FILE = FixeAds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fixeads.FixeAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FixeAds/FixeAds-Bridging-Header.h";
@@ -545,8 +674,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FixeAds/Persistent",
+					Layer,
+				);
 				INFOPLIST_FILE = FixeAds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fixeads.FixeAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FixeAds/FixeAds-Bridging-Header.h";
